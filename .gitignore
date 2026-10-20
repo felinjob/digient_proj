@@ -1,0 +1,29 @@
+# Ambientes virtuais e ferramentas do Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Tipagem e formatação
+.mypy_cache/
+.ruff_cache/
+
+# Ambientes e segredos
+.env
+.env.*
+
+# Banco de dados local transitório (Fase MVP)
+*.sqlite
+*.sqlite3
+*.db
+
+# Configurações do VS Code e do OS
+.vscode/
+.DS_Store
+*.swp
